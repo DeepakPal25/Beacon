@@ -1,6 +1,6 @@
 # Beacon
 
-[![CI](https://github.com/YOUR_USERNAME/Beacon/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/Beacon/actions/workflows/ci.yml)
+[![CI](https://github.com/DeepakPal25/Beacon/actions/workflows/ci.yml/badge.svg)](https://github.com/DeepakPal25/Beacon/actions/workflows/ci.yml)
 ![Swift 6](https://img.shields.io/badge/Swift-6.0-F05138?logo=swift&logoColor=white)
 ![Platforms](https://img.shields.io/badge/platforms-iOS%2016%20%7C%20macOS%2013%20%7C%20tvOS%20%7C%20watchOS%20%7C%20visionOS-blue)
 ![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen)
@@ -36,7 +36,7 @@ Feature code calls one API. Which vendors receive events, what they're allowed t
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YOUR_USERNAME/Beacon.git", from: "1.0.0"),
+    .package(url: "https://github.com/DeepakPal25/Beacon.git", from: "1.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: ["Beacon"]),
